@@ -5,6 +5,7 @@ body {
 
 .header {
     background-image: url(../images/the-flatiron-building.png);
+    background-position: center center;
 }
 
 .title {
@@ -13,7 +14,27 @@ body {
     font-size: 70px;
 }
 
-.menu-list a {
+.vertical-menu a {
     font-size: 18px;
     color: white;
+    font-weight: bold;
+    display: block;
+    padding: 6px;
 }
+
+h2,h3 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+p {
+    font-size: 14px;
+}
+
